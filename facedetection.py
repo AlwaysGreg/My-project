@@ -22,7 +22,7 @@ while True:
     
     isTrue, frame = capture.read()
     
-    haar_cascade = cv.CascadeClassifier(r"D:\Users\Marven\Desktop\face detection\haar_face.xml")
+    haar_cascade = cv.CascadeClassifier(r"*PUT THE PATH OF THE INSTALLED XML FILE")
 
     faces_rect = haar_cascade.detectMultiScale(frame, scaleFactor=1.1, minNeighbors=1, minSize= (100,100), maxSize=(200,200))
     
