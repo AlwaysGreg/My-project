@@ -1,3 +1,9 @@
+'''
+Those libraries are required 
+so the code can run properly
+u can download them using :
+- Windows : pip install "Name of the library"
+'''
 import cv2 as cv
 import numpy as np
 import os
